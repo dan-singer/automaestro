@@ -10,7 +10,9 @@ body{
     background-color: #181818;
     font-family: "OstrichSans", sans-serif;
 }
-
+div{
+    overflow: hidden;
+}
 h1{
     color: white;
     text-align: center;
@@ -35,6 +37,10 @@ a{
     position: relative;
     height: 100vh;
     border: 2px solid white;
+}
+
+.break{
+    height: 30vh;
 }
 
 .center{
