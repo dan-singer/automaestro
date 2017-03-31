@@ -11,7 +11,7 @@ body{
     font-family: "OstrichSans", sans-serif;
 }
 div{
-    overflow: hidden;
+
 }
 h1{
     color: white;
@@ -36,10 +36,7 @@ a{
 .full{
     position: relative;
     height: 100vh;
-}
-
-.break{
-    height: 30vh;
+    border: 2px solid white;
 }
 
 .center{
@@ -50,17 +47,27 @@ a{
     transform: translate(-50%, -50%);
 }
 
+.break{
+    height: 30vh;
+}
+
 #piano1{
     background: url(media/piano1.png) no-repeat center center fixed;
     background-size: cover;
+    border: 2px solid white;
+
 }
 
 #piano2{
     background: url(media/piano2.png) no-repeat center center fixed;
     background-size: cover;
+    border: 2px solid white;
+
 }
 
 #piano3{
     background: url(media/piano3.png) no-repeat center center fixed;
     background-size: cover;
+    border: 2px solid white;
+
 }
