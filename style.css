@@ -57,23 +57,13 @@ img{
     height: 30vh;
 }
 
-#piano1{
-    /*background: url(media/piano1.png) no-repeat center center fixed;*/
-    background-size: cover;
-    border: 2px solid white;
-
+.large-link{
+    font-size: 60px;
 }
 
-#piano2{
-    background: url(media/piano2.png) no-repeat center center fixed;
-    background-size: cover;
-    border: 2px solid white;
 
-}
-
-#piano3{
-    background: url(media/piano3.png) no-repeat center center fixed;
-    background-size: cover;
-    border: 2px solid white;
-
+#badge{
+    margin: auto;
+    width: 35vmax;
+    height: auto;
 }
