@@ -32,10 +32,16 @@ a{
     font-size: 50px
 }
 
+img{
+    z-index: -2;
+    position: relative;
+    width: 100vmax;
+    height: auto;
+}
 
 .full{
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     border: 2px solid white;
 }
 
@@ -52,7 +58,7 @@ a{
 }
 
 #piano1{
-    background: url(media/piano1.png) no-repeat center center fixed;
+    /*background: url(media/piano1.png) no-repeat center center fixed;*/
     background-size: cover;
     border: 2px solid white;
 
