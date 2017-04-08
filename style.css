@@ -61,6 +61,10 @@ img{
     font-size: 60px;
 }
 
+.large-link:hover{
+    color: white;
+}
+
 
 #badge{
     margin: auto;
